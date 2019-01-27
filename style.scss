@@ -22,12 +22,13 @@ $breakthrough: 1085px;
 }
 
 .button{
+  font-size: 1.1rem;
   background: transparent;
   border: 2px solid white;
   position: relative;
   display: inline-flex;
   color: white;
-  
+
 }
 .button:hover {
   background: white;
