@@ -8,12 +8,11 @@
 
 .hero {
   font-family: "Montserrat", sans-serif;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .title, .subtitle {
-  line-height: 1.1;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .button {
@@ -34,6 +33,71 @@
 
 #about {
   background: #353b48;
+}
+
+#abilities {
+  margin-top: -10rem;
+}
+
+.text-wrap {
+  line-height: 1.2;
+  font-weight: 200;
+}
+
+.skill {
+  background: #80e5ff;
+  margin-top: 2rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  padding: 1rem;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 2rem;
+}
+
+.progress {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.is-blue {
+  background: #80e5ff;
+}
+
+.orange {
+  color: #e67e22;
+}
+
+.is-bigger {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  width: 20%;
+}
+
+.tabs {
+  margin-bottom: -4rem;
+}
+
+.has-padding {
+  margin-top: -6rem;
+}
+
+@media (max-width: 1085px) {
+  .has-padding {
+    margin-top: 0;
+  }
+
+  #abilities {
+    margin-top: 0;
+  }
+
+  .is-bigger {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    width: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
