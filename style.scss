@@ -1,0 +1,40 @@
+$maincolor: #353b48;
+$font: 'Montserrat', sans-serif;
+
+.navbar{
+  background: $maincolor;
+}
+
+.is-bottom{
+  margin-bottom: -3.5rem;
+}
+
+.hero{
+  font-family: $font;
+  padding-top: 3rem;
+
+}
+
+.title, .subtitle{
+  line-height: 1.1;
+  padding-bottom: 2rem;
+}
+
+.button{
+  background: transparent;
+  border: 2px solid white;
+  position: relative;
+  display: inline-flex;
+  color: white;
+}
+.button:hover {
+  background: white;
+  color: $maincolor;
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  border: 2px solid white;
+}
+
+#about{
+  background: $maincolor;
+}

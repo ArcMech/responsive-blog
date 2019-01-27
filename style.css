@@ -1,0 +1,39 @@
+.navbar {
+  background: #353b48;
+}
+
+.is-bottom {
+  margin-bottom: -3.5rem;
+}
+
+.hero {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3rem;
+}
+
+.title, .subtitle {
+  line-height: 1.1;
+  padding-bottom: 2rem;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid white;
+  position: relative;
+  display: inline-flex;
+  color: white;
+}
+
+.button:hover {
+  background: white;
+  color: #353b48;
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  border: 2px solid white;
+}
+
+#about {
+  background: #353b48;
+}
+
+/*# sourceMappingURL=style.css.map */
