@@ -22,6 +22,7 @@ $breakthrough: 1085px;
 }
 
 .button{
+  cursor: pointer;
   font-size: 1.1rem;
   background: transparent;
   border: 2px solid white;
@@ -95,7 +96,17 @@ $breakthrough: 1085px;
 
 }
 
+.gap{
+  padding-bottom: 2rem;
+}
 
+.textarea-gap{
+  padding-top: 0.5rem;
+}
+
+.wrapper{
+  width:50%;
+}
 
 @media (max-width: $breakthrough){
   .has-padding{
@@ -113,6 +124,9 @@ $breakthrough: 1085px;
   }
   .tabs{
     margin-bottom: -1rem;
+  }
+  .wrapper{
+    width:90%;
   }
 
 }
