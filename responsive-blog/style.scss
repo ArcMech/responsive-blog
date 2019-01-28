@@ -1,0 +1,132 @@
+$maincolor: #353b48;
+$secondary: #80e5ff;
+$font: 'Montserrat', sans-serif;
+$breakthrough: 1085px;
+
+.navbar{
+  background: $maincolor;
+}
+
+.is-bottom{
+  margin-bottom: -3.5rem;
+}
+
+.hero{
+  font-family: $font;
+  padding-top: 2rem;
+
+}
+
+.title, .subtitle{
+  padding-bottom: 1rem;
+}
+
+.button{
+  cursor: pointer;
+  font-size: 1.1rem;
+  background: transparent;
+  border: 2px solid white;
+  position: relative;
+  display: inline-flex;
+  color: white;
+
+}
+.button:hover {
+  background: white;
+  color: $maincolor;
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  border: 2px solid white;
+
+}
+
+#about{
+  background: $maincolor;
+}
+
+#abilities{
+  margin-top: -10rem;
+
+}
+
+.text-wrap{
+  line-height: 1.2;
+  font-weight: 200;
+}
+.skill{
+  background: $secondary;
+  margin-top: 2rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  padding: 1rem;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left:50%;
+  top:2rem;
+
+}
+
+.progress{
+  margin-top: 1rem;
+  position: relative;
+
+}
+.is-blue{
+  background: $secondary;
+}
+
+.orange{
+  color: #e67e22;
+}
+
+.is-bigger{
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  width: 25%;
+
+}
+
+.tabs{
+  margin-bottom: -4rem;
+}
+
+.has-padding{
+  margin-top: -6rem;
+
+}
+
+.gap{
+  padding-bottom: 2rem;
+}
+
+.textarea-gap{
+  padding-top: 0.5rem;
+}
+
+.wrapper{
+  width:50%;
+}
+
+@media (max-width: $breakthrough){
+  .has-padding{
+    margin-top: 0;
+  }
+  #abilities{
+    margin-top: 0;
+
+  }
+  .is-bigger{
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    width: 25%;
+
+  }
+  .tabs{
+    margin-bottom: -1rem;
+  }
+  .wrapper{
+    width:90%;
+  }
+
+}
